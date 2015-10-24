@@ -38,7 +38,7 @@ message_content.on("keypress", event => {
 })
 
 chan.on("new_msg", payload => {
-  messagesContainer.append(`<br/>[${Date()}] ${payload.body}`)
+  messagesContainer.append(`<br/>${payload.body}`)
 })
 
 chan.join().receive("ok", chan => {

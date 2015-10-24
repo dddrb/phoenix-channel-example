@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-$ git clone https://github.com/ogom/phoenix-channel-example.git
+$ git clone https://github.com/dddrb/phoenix-channel-example.git
 $ cd phoenix-channel-example
 $ npm install
 $ mix deps.get
